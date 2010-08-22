@@ -25,8 +25,7 @@ messages.
 
 %build
 rm -f configure
-autoreconf -fis
-
+autoreconf -fi
 %configure2_5x
 
 %make CFLAGS="%{optflags}"
