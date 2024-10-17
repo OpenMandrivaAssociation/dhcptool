@@ -4,7 +4,7 @@ Version:	0.9b
 Release:	%mkrel 3
 License:	BSD
 Group:		Networking/Other
-URL:		http://www.gatorhole.se/index.php?product=dhcp&lang=gb
+URL:		https://www.gatorhole.se/index.php?product=dhcp&lang=gb
 Source0:	http://www.gatorhole.com/downloads/%{name}-%{version}.tar.gz
 Patch0:		dhcptool-0.9b-DESTDIR.diff
 BuildRequires:	pcap-devel
