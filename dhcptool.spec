@@ -7,6 +7,11 @@ Group:		Networking/Other
 URL:		https://www.gatorhole.se/index.php?product=dhcp&lang=gb
 Source0:	http://www.gatorhole.com/downloads/%{name}-%{version}.tar.gz
 Patch0:		dhcptool-0.9b-DESTDIR.diff
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pcap-devel
 BuildRequires:	net-devel >= 1.1.3
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
