@@ -1,7 +1,7 @@
 Summary:	Generates and transmits custom DHCP/BOOTP packets
 Name:		dhcptool
 Version:	0.9b
-Release:	%mkrel 3
+Release:	4
 License:	BSD
 Group:		Networking/Other
 URL:		https://www.gatorhole.se/index.php?product=dhcp&lang=gb
